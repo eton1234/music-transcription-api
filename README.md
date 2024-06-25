@@ -1,7 +1,7 @@
 # Setup and Purpose
 The main purpose of this app is to run basic-pitch which converts a song into a midi file. https://basicpitch.spotify.com/
 
-Each folder represents an AWWS Lambda function. Need to create an API gateway, AWS RDS instance (with the same database schema as in the repo), and S3 bucket. Also need to create custom layers for functions which use specific libraries/packages (e.g. ffmpeg). Finally, need to create a docker image for the basic-pitch function and push it to ECR for deployment
+Each folder represents an AWS Lambda function. Need to create an API gateway, AWS RDS instance (with the same database schema as in the repo), and S3 bucket. Also need to create custom layers for functions which use specific libraries/packages (e.g. ffmpeg). Finally, need to create a docker image for the basic-pitch function and push it to ECR for deployment
 # Music Analysis Service
 
 Asynchronous API to run Basic-pitch by Spotify. 
