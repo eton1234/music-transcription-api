@@ -1,0 +1,6 @@
+{
+  "pathParameters": {
+    "userid": "80001"
+  },
+  "body": "{ \"filename\": \"junkdata.pdf\", \"data\": \"MQ0KMg0KMw0KNA0KNQ0KNg0KNw0KOA0KOQ0KMTANCjExCjEyCjEzCjE0CjE1CjE2CjE3CjE4CjE5CjIwCjIxCjIyCjIzCg==\" }"
+}
