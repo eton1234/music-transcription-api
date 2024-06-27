@@ -6,7 +6,7 @@ Each folder represents an AWS Lambda function. Need to create an API gateway, AW
 
 Asynchronous API to run Basic-pitch by Spotify. 
 
-<img width="460" alt="image" src="https://github.com/eton1234/music-transcription-api/assets/50380126/d5a01586-4e1e-42f5-8dcf-7bde37bb9b69">
+<img width="460" alt="image" src="https://github.com/eton1234/music-transcription-api/assets/50380126/a53e8fd7-1581-487d-ab3c-312303345b6c">
 
 User uploads a song either from source or through youtube. Song is downloaded to S3 bucket and an S3 trigger kicks off the basic-pitch async API. RDS is used to keep track of the status of basic-pitch jobs in the queue.
 
